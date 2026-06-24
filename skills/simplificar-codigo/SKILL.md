@@ -1,9 +1,22 @@
+---
+name: simplificar-codigo
+description: "Refactoring com preservação de comportamento — Chesterton's Fence, complexidade essencial versus acidental e clareza acima de esperteza. Use quando um dev ou o tech-lead vai simplificar código sem mudar comportamento."
+author: "Pedro Andriow (https://github.com/Andriow)"
+---
+
 # Skill: simplificar-codigo
 
 Refatorar código para reduzir complexidade acidental, preservando o comportamento exato. Baseado no Princípio de Chesterton's Fence: entender o propósito de algo antes de modificá-lo.
 
 **Agente:** `dev-backend`, `dev-bff`, `dev-frontend`, `dev-mobile`, `tech-lead`  
-**Quando usar:** Ao fazer code review e encontrar complexidade desnecessária; antes de adicionar feature em área com débito técnico; quando um PR de simplificação é explicitamente solicitado
+
+---
+
+## Quando usar
+
+- Ao fazer code review e encontrar complexidade desnecessária
+- Antes de adicionar feature em área com débito técnico
+- Quando um PR de simplificação é explicitamente solicitado
 
 ---
 

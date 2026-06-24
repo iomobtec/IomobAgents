@@ -1,3 +1,10 @@
+---
+name: auditar-codigo-lovable
+description: "Analisa código exportado do Lovable — mapeia schema, RLS policies, chamadas Supabase e edge functions — produzindo um mapa de migração. Use quando o arquiteto vai planejar a saída de Lovable e Supabase."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: auditar-codigo-lovable
 
 Analisa o código exportado de um projeto Lovable antes da migração para NestJS + Prisma: mapeia tabelas, RLS policies, padrões de autenticação, chamadas diretas ao Supabase, edge functions e lógica de negócio misturada com infraestrutura. Produz o mapa de migração em `plans/arquitetura/<ticket>-lovable-audit.md` — entrada obrigatória para a skill `migrar-supabase`.

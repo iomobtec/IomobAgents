@@ -1,3 +1,10 @@
+---
+name: revisar-frontend
+description: "Revisa código React e TypeScript quanto a padrões, performance e acessibilidade. Use quando o dev-frontend vai autorrevisar o código antes do PR."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-frontend
 
 Revisa código React/TypeScript antes de abrir PR: verifica conformidade com guardrails, qualidade de componentes, acessibilidade, gerenciamento de estado, tipagem e cobertura de testes.

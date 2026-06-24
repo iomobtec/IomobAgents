@@ -1,3 +1,10 @@
+---
+name: auditar-cobertura
+description: "Analisa relatórios de cobertura Jest e identifica lacunas na suíte de testes. Use quando um dev ou o tech-lead precisa avaliar a qualidade da cobertura antes do PR."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: auditar-cobertura
 
 Analisa o **relatório de cobertura de testes** de um serviço Node.js, identifica gaps críticos e recomenda quais testes devem ser escritos para garantir qualidade mínima sem desperdício de esforço.

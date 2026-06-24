@@ -1,3 +1,10 @@
+---
+name: revisar-seguranca-mobile
+description: "Checklist shift-left de segurança mobile — SecureStore, logs, deep link, WebView e permissões — como parte do DoD. Use quando o dev-mobile, o dev-security ou o tech-lead valida segurança antes do merge."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-seguranca-mobile
 
 Checklist "shift left" de segurança para **React Native + Expo**: armazenamento seguro, dados em log, permissões, deep link hijacking, WebView, dependências e exposição de informações. Parte obrigatória do DoD do dev-mobile.

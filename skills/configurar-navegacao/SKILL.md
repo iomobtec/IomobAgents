@@ -1,3 +1,10 @@
+---
+name: configurar-navegacao
+description: "Implementa a estrutura de rotas com Expo Router — tabs, stack, modais, autenticação com redirect e deep linking. Use quando o dev-mobile vai estruturar a navegação do app."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: configurar-navegacao
 
 Implementa a **estrutura de rotas Expo Router** de um projeto mobile: layouts de tabs, stack, modais, autenticação com redirect e deep linking.

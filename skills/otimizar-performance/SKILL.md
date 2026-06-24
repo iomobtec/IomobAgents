@@ -1,3 +1,10 @@
+---
+name: otimizar-performance
+description: "Aplica estratégias de otimização nos tempos de resposta do BFF, como agregação, cache e paralelização. Use quando o dev-bff precisa reduzir a latência de um endpoint agregador."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: otimizar-performance
 
 Aplica estratégias de **melhoria de performance em serviços BFF e backend Node.js**: cache de resposta, paralelização de chamadas upstream, redução de payload, compressão e identificação de gargalos de latência.

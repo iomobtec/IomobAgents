@@ -1,3 +1,10 @@
+---
+name: escrever-gherkin
+description: "Escreve cenários BDD em sintaxe Gherkin para testes de aceitação. Use quando o dev-qa vai formalizar critérios de aceite executáveis."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: escrever-gherkin
 
 Escreve **cenários de comportamento em Gherkin** (BDD): especificações legíveis por negócio e técnico que descrevem o que o sistema deve fazer, não como. Serve como contrato entre produto, QA e desenvolvimento antes da implementação.

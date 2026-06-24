@@ -1,9 +1,22 @@
+---
+name: questionar-decisao
+description: "Revisão adversarial de decisões de alto impacto, com revisor cego à justificativa, enviesado a refutar, em no máximo 3 ciclos. Use quando o arquiteto ou o tech-lead quer estressar uma decisão crítica."
+author: "Pedro Andriow (https://github.com/Andriow)"
+---
+
 # Skill: questionar-decisao
 
 Técnica de revisão adversarial para decisões arquiteturais ou técnicas de alto impacto, usando um revisor estruturalmente separado da justificativa original para eliminar o viés de confirmação.
 
 **Agente:** `arquiteto`, `tech-lead`  
-**Quando usar:** Antes de commitar uma decisão arquitetural de alto impacto; quando há pressão para escolher entre duas abordagens radicalmente diferentes; quando a decisão vai ser difícil ou cara de reverter.
+
+---
+
+## Quando usar
+
+- Antes de commitar uma decisão arquitetural de alto impacto
+- Quando há pressão para escolher entre duas abordagens radicalmente diferentes
+- Quando a decisão vai ser difícil ou cara de reverter
 
 ---
 

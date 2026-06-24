@@ -1,3 +1,10 @@
+---
+name: configurar-auth
+description: "Configura autenticação JWT com guards do Passport e validação de token. Use quando um serviço precisa proteger rotas com autenticação."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: configurar-auth
 
 Adiciona **autenticação JWT** a um serviço NestJS existente: guard global, estratégia Passport, extração e validação do token, decorators de acesso público e tipagem do usuário autenticado no contexto da request.

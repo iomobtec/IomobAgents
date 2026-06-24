@@ -1,3 +1,10 @@
+---
+name: criar-teste-e2e
+description: "Escreve testes end-to-end com Playwright para fluxos completos do usuário. Use quando o dev-qa vai automatizar um fluxo de ponta a ponta."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-teste-e2e
 
 Escreve **testes de ponta a ponta (E2E)** que validam fluxos completos de usuário percorrendo frontend, BFF e serviços backend. Usa Playwright como ferramenta principal: navega na UI real, interage como usuário e verifica resultados visíveis.

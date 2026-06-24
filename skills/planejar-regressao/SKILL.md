@@ -1,3 +1,10 @@
+---
+name: planejar-regressao
+description: "Define a estratégia de testes de regressão e a seleção de casos de teste. Use quando o dev-qa precisa planejar a regressão de uma entrega."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: planejar-regressao
 
 Define a **estratégia de regressão** para uma entrega ou release: quais fluxos testar, com qual profundidade, em qual ordem e com qual critério de bloqueio. Produz um plano executável que equilibra cobertura de risco com tempo disponível.

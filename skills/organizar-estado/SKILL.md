@@ -1,3 +1,10 @@
+---
+name: organizar-estado
+description: "Define a estratégia de gerenciamento de estado React entre Context API, Zustand ou Redux. Use quando o dev-frontend precisa decidir onde e como guardar estado."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: organizar-estado
 
 Define e implementa a **estratégia de gerenciamento de estado** para uma feature ou aplicação React: decide onde o estado vive, qual ferramenta usar e como estruturar para evitar prop drilling, estado global desnecessário e re-renders excessivos.

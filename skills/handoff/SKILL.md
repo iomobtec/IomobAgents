@@ -1,3 +1,10 @@
+---
+name: handoff
+description: "Protocolo de conclusão de sessão — escreve plans/.handoff/current.md e mostra ao usuário o próximo comando a executar. Use quando qualquer agente encerra sua etapa e precisa passar o bastão."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: handoff
 
 Protocolo de conclusão de sessão: escreve o arquivo de handoff para o próximo agente e exibe ao usuário o comando exato a executar.

@@ -2,7 +2,7 @@
 
 Biblioteca de skills disponíveis para os agentes. Cada skill é um conjunto de instruções especializadas que o agente carrega sob demanda — não são código executável, são protocolos de comportamento.
 
-> **Convenção:** skills ficam em `Skills/<nome-da-skill>/SKILL.md`. O agente inclui o arquivo via `@Skills/<nome>/SKILL.md` no contexto da sessão.
+> **Convenção:** skills ficam em `skills/<nome-da-skill>/SKILL.md`. O agente inclui o arquivo via `@skills/<nome>/SKILL.md` no contexto da sessão. Toda `SKILL.md` começa com frontmatter YAML (`name`, `description`, `author`, `disable-model-invocation: true`) seguindo o padrão [Agent Skills](https://agentskills.io).
 
 ---
 

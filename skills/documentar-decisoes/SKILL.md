@@ -1,10 +1,25 @@
+---
+name: documentar-decisoes
+description: "Cria ADRs em docs/decisions com contexto, alternativas e consequências, nunca deletando e apenas supersedendo decisões anteriores. Use quando uma decisão arquitetural relevante precisa ser registrada."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: documentar-decisoes
 
 Registrar decisões técnicas e arquiteturais como ADRs (Architecture Decision Records) — documentos imutáveis que preservam o contexto de "por que fizemos dessa forma", não apenas "o que fizemos".
 
 **Agente:** `arquiteto`, `tech-lead`  
-**Quando usar:** Ao tomar qualquer decisão arquitetural; ao adotar nova dependência significativa; ao definir padrão que todos os devs devem seguir; ao escolher entre duas abordagens igualmente válidas  
 **Referências rápidas:** `References/adr-template.md`
+
+---
+
+## Quando usar
+
+- Ao tomar qualquer decisão arquitetural
+- Ao adotar nova dependência significativa
+- Ao definir padrão que todos os devs devem seguir
+- Ao escolher entre duas abordagens igualmente válidas
 
 ---
 

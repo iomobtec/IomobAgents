@@ -1,3 +1,10 @@
+---
+name: mapear-contrato
+description: "Formaliza contratos de comunicação entre serviços, definindo formatos de request e response. Use quando o arquiteto precisa documentar a integração entre dois serviços."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: mapear-contrato
 
 Formaliza o **contrato de comunicação entre dois serviços**: define exatamente o que o produtor entrega e o que o consumidor espera, garantindo que ambos os lados possam evoluir independentemente sem quebrar a integração.

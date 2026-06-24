@@ -1,3 +1,10 @@
+---
+name: implementar-saga
+description: "Projeta a orquestração de transações distribuídas e a lógica de compensação. Use quando uma operação cruza múltiplos serviços e precisa de consistência eventual com rollback."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: implementar-saga
 
 Desenha a **estratégia de orquestração ou coreografia** para um fluxo de negócio distribuído que envolve múltiplos serviços, garantindo consistência eventual e tratamento correto de falhas sem transação distribuída (2PC).

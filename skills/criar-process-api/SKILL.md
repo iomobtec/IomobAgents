@@ -1,3 +1,10 @@
+---
+name: criar-process-api
+description: "Inicializa uma Process API em NestJS com orquestração e publicação de eventos. Use quando o dev-backend vai criar um serviço de orquestração de processos."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-process-api
 
 Inicializa um **novo serviço de Process API** em NestJS: estrutura de pastas, configuração base, módulo de orquestração, clientes HTTP para consumo de Systems, logging e testes — pronto para receber a primeira implementação de fluxo.

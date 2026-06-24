@@ -1,3 +1,10 @@
+---
+name: revisar-interface
+description: "Audita a implementação de UI contra guardrails de acessibilidade WCAG 2.1 AA, tipografia e performance visual, em modo report ou fix. Use quando o dev-ui-ux ou o tech-lead vai validar a UI implementada."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-interface
 
 Auditoria e correção de qualidade de interface: acessibilidade (WCAG 2.1 AA), animação, tipografia, formulários, performance visual e aderência ao design system. Opera em dois modos distintos — **nunca inferir o modo**; sempre perguntar ou derivar explicitamente da solicitação.

@@ -1,3 +1,10 @@
+---
+name: revisar-pr
+description: "Conduz a revisão técnica de um Pull Request com gates de qualidade, segurança, testes e DoD. Use quando o tech-lead vai revisar e aprovar um PR."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-pr
 
 Conduz a **revisão técnica de um Pull Request**: verifica conformidade com guardrails, qualidade do código, cobertura de testes, segurança, impacto em outros serviços e se o DoD foi satisfeito. Produz parecer com aprovação, ressalvas ou bloqueio.

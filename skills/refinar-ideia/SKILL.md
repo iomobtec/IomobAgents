@@ -1,9 +1,22 @@
+---
+name: refinar-ideia
+description: "Conduz ideação antes de comprometer uma direção — reformulação HMW, variações, suposições ocultas e one-pager com a lista do que NÃO será feito. Use quando o orquestrador ou o arquiteto ainda está explorando o problema."
+author: "Pedro Andriow (https://github.com/Andriow)"
+---
+
 # Skill: refinar-ideia
 
 Framework de ideação em 3 fases para expandir, avaliar e convergir em uma direção antes de comprometer com planejamento técnico ou implementação.
 
 **Agente:** `orquestrador`, `arquiteto`  
-**Quando usar:** Antes do planejamento técnico ou da criação de spec; quando a ideia original é muito ampla ou tem múltiplas interpretações válidas; quando há pressão para "só fazer" sem avaliar alternativas.
+
+---
+
+## Quando usar
+
+- Antes do planejamento técnico ou da criação de spec
+- Quando a ideia original é muito ampla ou tem múltiplas interpretações válidas
+- Quando há pressão para "só fazer" sem avaliar alternativas
 
 ---
 

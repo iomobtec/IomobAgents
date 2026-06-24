@@ -1,3 +1,10 @@
+---
+name: avaliar-dependencias
+description: "Analisa viabilidade, risco, manutenção e licenciamento de uma dependência externa antes de adotá-la. Use quando o arquiteto avalia incluir uma nova biblioteca ou serviço de terceiro."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: avaliar-dependencias
 
 Analisa a **viabilidade e o risco de adicionar ou atualizar uma dependência externa** ao projeto. Avalia licença, manutenção, segurança, tamanho e compatibilidade antes de recomendar adoção ou rejeição.

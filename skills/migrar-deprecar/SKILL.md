@@ -1,9 +1,23 @@
+---
+name: migrar-deprecar
+description: "Conduz deprecação estruturada com padrões Strangler, Adapter e Feature Flag, Churn Rule e resolução de código zumbi. Use quando o arquiteto ou o tech-lead vai remover ou substituir código legado."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: migrar-deprecar
 
 Processo estruturado para deprecar código, APIs ou dependências sem quebrar consumidores. A deprecação é inevitável — o que varia é se ela é feita com planejamento ou com incidentes.
 
 **Agente:** `arquiteto`, `tech-lead`  
-**Quando usar:** Ao remover API, endpoint ou módulo com consumidores ativos; ao atualizar dependência com breaking changes; ao substituir implementação legada por nova abordagem
+
+---
+
+## Quando usar
+
+- Ao remover API, endpoint ou módulo com consumidores ativos
+- Ao atualizar dependência com breaking changes
+- Ao substituir implementação legada por nova abordagem
 
 ---
 

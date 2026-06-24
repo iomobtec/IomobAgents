@@ -1,9 +1,22 @@
+---
+name: gerenciar-contexto
+description: "Estrutura e cura o contexto entregue aos agentes — hierarquia de 5 níveis, limite de 2.000 linhas e anti-padrões de context starvation e context flooding. Use quando o orquestrador ou o arquiteto monta o contexto de uma sessão."
+author: "Pedro Andriow (https://github.com/Andriow)"
+---
+
 # Skill: gerenciar-contexto
 
 Define como estruturar e manter o contexto relevante para agentes de IA, equilibrando profundidade de informação com foco no escopo da tarefa atual.
 
 **Agente:** `orquestrador`, `arquiteto`  
-**Quando usar:** Antes de iniciar uma sessão de desenvolvimento complexa; quando o agente começa a dar respostas inconsistentes ou alucinadas; ao coordenar múltiplos agentes numa mesma tarefa.
+
+---
+
+## Quando usar
+
+- Antes de iniciar uma sessão de desenvolvimento complexa
+- Quando o agente começa a dar respostas inconsistentes ou alucinadas
+- Ao coordenar múltiplos agentes numa mesma tarefa
 
 ---
 

@@ -1,3 +1,10 @@
+---
+name: revisar-arquitetura
+description: "Avalia soluções arquiteturais contra os princípios e guardrails do projeto, apontando riscos e alternativas. Use quando o arquiteto precisa validar ou comparar uma decisão de arquitetura antes de comprometê-la."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-arquitetura
 
 Avalia se uma solução proposta ou existente respeita os **princípios arquiteturais do projeto**: separação de responsabilidades entre camadas, contratos bem definidos, ausência de acoplamento indevido, aderência aos guardrails e alinhamento com as decisões técnicas vigentes.

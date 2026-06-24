@@ -1,3 +1,10 @@
+---
+name: definir-microservico
+description: "Especifica a estrutura de um novo microsserviço — APIs, eventos e modelo de deploy. Use quando o arquiteto vai criar um novo serviço no ecossistema."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: definir-microservico
 
 Define a **estrutura, responsabilidade, contratos e dependências** de um novo microserviço antes do desenvolvimento começar. Produz a especificação que o agente `dev-backend` usará para implementar.

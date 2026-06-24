@@ -1,3 +1,10 @@
+---
+name: criar-bff
+description: "Inicializa um BFF em NestJS com clients HTTP, validação, logging, guard de autenticação e testes para consumir APIs upstream. Use quando o arquiteto define um novo BFF para servir um frontend ou canal."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-bff
 
 Inicializa um **novo serviço BFF (Backend for Frontend)** em NestJS: estrutura de pastas, configuração base, clients HTTP para consumo de APIs upstream, validação, logging, guard de autenticação e testes — pronto para receber a primeira implementação de endpoint.

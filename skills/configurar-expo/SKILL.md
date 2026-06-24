@@ -1,3 +1,10 @@
+---
+name: configurar-expo
+description: "Inicializa um projeto React Native com Expo e toda a stack padrão — Expo Router, NativeWind, TanStack Query, Zustand, Jest e React Native Testing Library. Use quando o dev-mobile vai criar ou padronizar um app mobile."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: configurar-expo
 
 Inicializa um projeto **React Native + Expo** com toda a stack padrão: Expo Router, NativeWind, TanStack Query, Zustand, expo-secure-store, Jest e React Native Testing Library.

@@ -1,9 +1,22 @@
+---
+name: implementar-incremental
+description: "Implementa em thin vertical slices — uma fatia funcional por vez, ciclo TDD por fatia, limite de cerca de 100 linhas antes de testar e feature flags para trabalho incompleto. Use quando qualquer dev vai construir uma feature de forma incremental."
+author: "Pedro Andriow (https://github.com/Andriow)"
+---
+
 # Skill: implementar-incremental
 
 Implementar features em fatias verticais completas e funcionais — uma de cada vez, testada, verificada e commitada antes de iniciar a próxima. Nunca implementar tudo de uma vez e testar no final.
 
 **Agente:** `dev-backend`, `dev-bff`, `dev-frontend`, `dev-mobile`  
-**Quando usar:** Ao iniciar implementação de qualquer feature; quando a tarefa envolve mais de 3 arquivos; sempre que houver risco de "implementação em bloco com testes no final"
+
+---
+
+## Quando usar
+
+- Ao iniciar implementação de qualquer feature
+- Quando a tarefa envolve mais de 3 arquivos
+- Sempre que houver risco de "implementação em bloco com testes no final"
 
 ---
 

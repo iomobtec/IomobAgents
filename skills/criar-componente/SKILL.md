@@ -1,3 +1,10 @@
+---
+name: criar-componente
+description: "Cria componentes React reutilizáveis com props, tipagem e stories. Use quando o dev-frontend vai adicionar um componente à UI."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-componente
 
 Cria um **componente React funcional em TypeScript**: definição de props tipadas, implementação com hooks adequados, estilos via design system, estados de loading/erro/vazio e acessibilidade básica.

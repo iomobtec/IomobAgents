@@ -1,3 +1,10 @@
+---
+name: avaliar-impacto
+description: "Estima o impacto e o esforço de uma mudança técnica em sistemas existentes. Use quando o arquiteto ou o tech-lead precisa dimensionar uma alteração antes de planejá-la."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: avaliar-impacto
 
 Estima o **efeito de uma mudança técnica** sobre serviços, consumidores, contratos e dados existentes antes que a mudança seja implementada. Produz um mapa de impacto que permite ao time decidir com informação completa.

@@ -1,3 +1,10 @@
+---
+name: gerar-diagrama
+description: "Produz diagramas de arquitetura, sequência e fluxo para documentação técnica. Use quando o arquiteto precisa comunicar visualmente uma solução ou fluxo."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: gerar-diagrama
 
 Produz **diagramas de arquitetura, fluxo e sequência** em formato texto (Mermaid) ou descrição estruturada para uso em documentação, PRs e discussões técnicas.

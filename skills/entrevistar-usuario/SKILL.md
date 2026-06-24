@@ -1,9 +1,22 @@
+---
+name: entrevistar-usuario
+description: "Fecha o gap entre o que o usuário pede e o que quer, com hipótese iterativa e score de confiança, uma pergunta por vez, parando perto de 95 por cento. Use quando o orquestrador ou o tech-lead precisa esclarecer requisitos."
+author: "Pedro Andriow (https://github.com/Andriow)"
+---
+
 # Skill: entrevistar-usuario
 
 Técnica para fechar o gap entre o que o usuário pede e o que ele realmente quer, usando hipóteses iterativas com uma única pergunta por vez.
 
 **Agente:** `orquestrador`, `tech-lead`  
-**Quando usar:** Antes de iniciar qualquer planejamento; quando a solicitação é ambígua ou tem escopo mal definido; quando o usuário usa linguagem vaga ("melhorar", "otimizar", "refazer").
+
+---
+
+## Quando usar
+
+- Antes de iniciar qualquer planejamento
+- Quando a solicitação é ambígua ou tem escopo mal definido
+- Quando o usuário usa linguagem vaga ("melhorar", "otimizar", "refazer")
 
 ---
 

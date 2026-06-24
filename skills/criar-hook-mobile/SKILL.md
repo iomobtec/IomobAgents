@@ -1,3 +1,10 @@
+---
+name: criar-hook-mobile
+description: "Extrai lógica em hook customizado — dados via TanStack Query, UI, APIs nativas e persistência. Use quando o dev-mobile precisa isolar lógica reaproveitável."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-hook-mobile
 
 Extrai lógica de estado, efeito ou integração com API em **hook customizado React Native**: hooks de dados (TanStack Query), hooks de lógica de UI e hooks de acesso a APIs nativas do dispositivo.

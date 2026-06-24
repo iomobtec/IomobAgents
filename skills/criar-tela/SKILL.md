@@ -1,3 +1,10 @@
+---
+name: criar-tela
+description: "Cria uma tela (Screen) com layout, hook de dados, todos os estados e testes. Use quando o dev-mobile vai adicionar uma tela ao app."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-tela
 
 Cria uma **tela (Screen) React Native** no Expo Router: layout, hook de dados via TanStack Query, todos os estados (loading, erro, vazio, sucesso), acessibilidade e testes.
