@@ -1,3 +1,10 @@
+---
+name: build-publicacao
+description: "Gera builds iOS e Android via EAS Build, publica nas stores via EAS Submit e configura OTA updates. Use quando o dev-mobile ou o dev-devops vai distribuir uma versão do app."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: build-publicacao
 
 Gera builds iOS e Android via **EAS Build** e publica nas stores via **EAS Submit**. Cobre configuração de certificados, keystores, OTA updates e automação via GitHub Actions.

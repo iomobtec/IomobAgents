@@ -1,3 +1,10 @@
+---
+name: migrar-supabase
+description: "Conduz a migração completa de Lovable e Supabase para NestJS e Prisma — schema, auth, Guards, services e plano de dados. Use quando o arquiteto ou o dev-backend vai executar a migração."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: migrar-supabase
 
 Conduz a migração completa de um projeto Lovable/Supabase para a stack NestJS + Prisma + PostgreSQL. Usa como entrada obrigatória o mapa de auditoria produzido por `auditar-codigo-lovable`. Cobre: conversão de schema para Prisma, definição de serviços NestJS, migração de autenticação, conversão de RLS em Guards, conversão de edge functions em services e plano de migração de dados.

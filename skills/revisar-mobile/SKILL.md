@@ -1,3 +1,10 @@
+---
+name: revisar-mobile
+description: "Revisa código React Native antes do PR quanto a performance, acessibilidade, padrões e comportamento cross-platform. Use quando o dev-mobile ou o tech-lead vai revisar um PR mobile."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-mobile
 
 Revisa código **React Native + Expo** antes de abrir PR: performance, acessibilidade, padrões de navegação, estado, segurança de storage e conformidade com `mobile.md`.

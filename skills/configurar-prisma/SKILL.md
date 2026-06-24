@@ -1,3 +1,10 @@
+---
+name: configurar-prisma
+description: "Configura o Prisma ORM com schema, migrations e geração de client. Use quando o dev-backend vai modelar ou evoluir a camada de persistência."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: configurar-prisma
 
 Configura o **Prisma ORM** em um serviço NestJS existente: schema inicial, PrismaService, primeira migration, seed opcional e integração com o ciclo de vida do NestJS.

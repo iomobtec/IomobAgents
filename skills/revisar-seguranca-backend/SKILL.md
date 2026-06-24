@@ -1,9 +1,23 @@
+---
+name: revisar-seguranca-backend
+description: "Checklist shift-left de segurança para NestJS — injeção, JWT, DTOs de response, anti-IDOR, helmet e rate limit — como parte do DoD do dev. Use quando o dev-backend, o dev-bff ou o dev-security valida segurança antes do merge."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-seguranca-backend
 
+Checklist shift-left de segurança para serviços NestJS, executado pelo próprio dev como parte do DoD antes de abrir o PR.
+
 **Agente:** `dev-backend`, `dev-bff`, `dev-security`  
-**Quando usar:** Antes de abrir PR de backend ou BFF. O próprio agente de dev executa este checklist como parte do DoD — não precisa esperar o `dev-security` para validar o básico.  
 **Output:** Checklist preenchido + lista de itens a corrigir antes do PR (se houver).  
 **Referências rápidas:** `References/security-checklist.md`
+
+---
+
+## Quando usar
+
+Antes de abrir PR de backend ou BFF. O próprio agente de dev executa este checklist como parte do DoD — não precisa esperar o `dev-security` para validar o básico.
 
 ---
 

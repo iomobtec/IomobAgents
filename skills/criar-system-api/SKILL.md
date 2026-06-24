@@ -1,3 +1,10 @@
+---
+name: criar-system-api
+description: "Inicializa uma System API em NestJS com banco de dados, ORM e endpoints. Use quando o dev-backend vai criar um serviço de dados de baixo nível."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-system-api
 
 Inicializa um **novo serviço de System API** em NestJS: estrutura de pastas, configuração base, módulo de domínio, Prisma, validação, logging e testes — pronto para receber a primeira implementação de endpoint.

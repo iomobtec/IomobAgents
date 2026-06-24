@@ -1,3 +1,10 @@
+---
+name: auditar-pipeline
+description: "Revisa workflows de CI/CD quanto a corretude e conformidade de segurança. Use quando o dev-devops ou o tech-lead vai auditar um pipeline."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: auditar-pipeline
 
 Revisa um workflow GitHub Actions existente verificando conformidade com `Guardrails/devops.md`: segurança de secrets, rastreabilidade de imagens, separação de environments, gate de produção e boas práticas de CI/CD.

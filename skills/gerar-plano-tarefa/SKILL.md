@@ -1,3 +1,10 @@
+---
+name: gerar-plano-tarefa
+description: "Gera arquivos de plano por agente na pasta plans, com tech review, cenários e critérios de aceite. Use quando o arquiteto ou o tech-lead vai transformar uma demanda em planos executáveis."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: gerar-plano-tarefa
 
 Gera arquivos de plano de tarefa na pasta `plans/` do repositório do projeto do usuário, seguindo o formato definido em `TEMPLATE.md`. Cada arquivo detalha completamente o que um agente de desenvolvimento deve implementar — sem ambiguidade, sem lacunas.

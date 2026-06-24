@@ -1,3 +1,10 @@
+---
+name: validar-dor
+description: "Valida o Definition of Ready contra checklist e guardrails antes do desenvolvimento. Use quando o tech-lead vai aprovar o início de uma história."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: validar-dor
 
 Verifica se uma história de usuário satisfaz o **Definition of Ready** antes de ser assumida por um agente de desenvolvimento. Bloqueia início de implementação quando informações críticas estão ausentes e orienta o que é necessário para desbloquear.

@@ -1,3 +1,10 @@
+---
+name: revisar-backend
+description: "Revisa código backend quanto a arquitetura, testes e conformidade de segurança. Use quando o dev-backend vai autorrevisar o código antes do PR."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-backend
 
 Revisa **código backend Node.js/NestJS** antes de abertura de PR: verifica aderência aos guardrails, qualidade de implementação, cobertura de testes, segurança e consistência com os padrões do projeto.

@@ -1,10 +1,24 @@
+---
+name: auditar-seguranca
+description: "Revisão completa de PR contra o OWASP Top 10 e o guardrail appsec, classificando achados em CRITICAL, HIGH, MEDIUM e LOW. Use quando o dev-security ou o tech-lead vai auditar a segurança de um PR."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: auditar-seguranca
 
+Auditoria de segurança de um Pull Request contra o OWASP Top 10 e o guardrail appsec, com achados classificados por severidade.
+
 **Agente:** `dev-security`, `tech-lead`  
-**Quando usar:** Após `dev-qa` concluir os testes E2E e antes da revisão de PR do `tech-lead`. Também usado em re-auditoria após correção de achados CRITICAL/HIGH.  
 **Baseado em:** OWASP Top 10 2025 (`https://owasp.org/Top10/2025/`) + OWASP API Security Top 10 2023 (`https://owasp.org/API-Security/editions/2023/en/0x00-header/`) + `Guardrails/appsec.md`  
 **Output:** Relatório de segurança estruturado com achados classificados por severidade.  
 **Referências rápidas:** `References/security-checklist.md`
+
+---
+
+## Quando usar
+
+Após `dev-qa` concluir os testes E2E e antes da revisão de PR do `tech-lead`. Também usado em re-auditoria após correção de achados CRITICAL/HIGH.
 
 ---
 

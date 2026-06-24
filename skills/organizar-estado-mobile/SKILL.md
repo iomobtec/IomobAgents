@@ -1,3 +1,10 @@
+---
+name: organizar-estado-mobile
+description: "Decide e implementa a estratégia de estado mobile, escalando de local para Zustand e TanStack Query. Use quando o dev-mobile precisa definir onde guardar estado."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: organizar-estado-mobile
 
 Decide e implementa a **estratégia de gerenciamento de estado** para um app React Native: estado local, Zustand (global de cliente) e TanStack Query (server state). Inclui configuração de stores, persistência e integração com o BFF.

@@ -1,3 +1,10 @@
+---
+name: gerar-teste-componente-nativo
+description: "Escreve testes com Jest e React Native Testing Library para componentes, telas e hooks. Use quando o dev-mobile precisa cobrir código mobile com testes."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: gerar-teste-componente-nativo
 
 Escreve **testes de componente e tela React Native** com Jest e React Native Testing Library (RNTL): render, interações do usuário, estados assíncronos e verificação de acessibilidade.

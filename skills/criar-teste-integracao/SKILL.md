@@ -1,3 +1,10 @@
+---
+name: criar-teste-integracao
+description: "Escreve testes de integração NestJS com banco de dados e mocking de serviços. Use quando o dev-backend precisa validar a integração entre camadas."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-teste-integracao
 
 Escreve **testes de integração** para controllers NestJS: sobe a aplicação em memória, executa requests HTTP reais contra o app, usa banco de dados de teste real (ou in-memory) e valida o comportamento fim a fim de cada endpoint.

@@ -1,3 +1,10 @@
+---
+name: refinar-historia
+description: "Refina histórias de usuário até o Definition of Ready, com critérios de aceite claros. Use quando o tech-lead vai preparar uma história para o desenvolvimento."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: refinar-historia
 
 Refina uma **história de usuário** até que satisfaça o Definition of Ready: critérios de aceite não ambíguos, escopo delimitado, dependências identificadas e estimativa viável. Produz a história pronta para entrar no sprint.

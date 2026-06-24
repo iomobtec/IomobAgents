@@ -1,3 +1,10 @@
+---
+name: criar-design-system
+description: "Estabelece as fundações do design system — cores, tipografia, espaçamento e animações — gerando o arquivo design-system/MASTER.md. Use quando o dev-ui-ux vai criar ou consolidar o design system."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-design-system
 
 Estabelece a fundação visual do produto: identidade estética, paleta de cores, tipografia, escala de espaçamento, tokens de animação e anti-padrões visuais do projeto. Produz `design-system/MASTER.md` no repositório do usuário — fonte única de verdade visual para todos os componentes.

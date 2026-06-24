@@ -1,3 +1,10 @@
+---
+name: criar-componente-nativo
+description: "Cria um componente React Native reutilizável com props tipadas, StyleSheet ou NativeWind e acessibilidade. Use quando o dev-mobile vai adicionar um componente à UI mobile."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-componente-nativo
 
 Cria um **componente React Native reutilizável**: props tipadas, StyleSheet ou NativeWind, acessibilidade mobile e testes com RNTL.

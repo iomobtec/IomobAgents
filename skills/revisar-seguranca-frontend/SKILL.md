@@ -1,9 +1,23 @@
+---
+name: revisar-seguranca-frontend
+description: "Checklist shift-left de segurança para React — XSS, tokens em storage, CSRF e atributo rel noopener — como parte do DoD do dev. Use quando o dev-frontend ou o dev-security valida segurança antes do merge."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-seguranca-frontend
 
+Checklist shift-left de segurança para aplicações React, executado pelo próprio dev-frontend como parte do DoD antes de abrir o PR.
+
 **Agente:** `dev-frontend`, `dev-security`  
-**Quando usar:** Antes de abrir PR de frontend. O próprio `dev-frontend` executa este checklist como parte do DoD — não precisa esperar o `dev-security` para validar o básico.  
 **Output:** Checklist preenchido + lista de itens a corrigir antes do PR (se houver).  
 **Referências rápidas:** `References/security-checklist.md`
+
+---
+
+## Quando usar
+
+Antes de abrir PR de frontend. O próprio `dev-frontend` executa este checklist como parte do DoD — não precisa esperar o `dev-security` para validar o básico.
 
 ---
 

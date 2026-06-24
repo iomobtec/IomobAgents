@@ -1,3 +1,10 @@
+---
+name: configurar-environments-github
+description: "Configura environments do GitHub, secrets e workflows de aprovação. Use quando o dev-devops vai preparar os ambientes de deploy de um repositório."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: configurar-environments-github
 
 Configura os **environments `staging` e `production`** no repositório GitHub com as protection rules corretas, secrets e variables por ambiente — habilitando o gate de aprovação manual para produção.

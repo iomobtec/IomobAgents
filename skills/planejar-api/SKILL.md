@@ -1,3 +1,10 @@
+---
+name: planejar-api
+description: "Projeta a especificação REST completa de um serviço — endpoints, schemas de request e response e tratamento de erros. Use quando o arquiteto vai definir o contrato de uma nova API."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: planejar-api
 
 Desenha a **especificação completa de uma API REST**: endpoints, verbos, paths, contratos de request/response, códigos de status, versionamento e regras de autenticação. Produz o contrato que governa o desenvolvimento — não escreve implementação.

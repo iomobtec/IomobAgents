@@ -1,3 +1,10 @@
+---
+name: padronizar-erros
+description: "Define o formato de resposta de erro e os padrões de código HTTP do serviço. Use quando o arquiteto vai padronizar o tratamento de erros de uma API."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: padronizar-erros
 
 Define o **formato, categorias e convenções de erros** compartilhados entre todos os serviços do projeto, garantindo que consumidores (BFF, frontend, parceiros) tratem erros de forma consistente independentemente de qual serviço os produziu.

@@ -26,7 +26,7 @@ Sistema de agentes de IA especializados para desenvolvimento de software. Este r
 
 ## Adicionar uma nova skill
 
-1. Criar `skills/<nome-da-skill>/SKILL.md` seguindo a estrutura padrão (ver abaixo)
+1. Criar `skills/<nome-da-skill>/SKILL.md` seguindo a estrutura padrão (ver abaixo) — **incluir o frontmatter YAML obrigatório** (`name`, `description`, `author`, `disable-model-invocation`)
 2. Adicionar à tabela do `agents/<agente>/AGENT.md` correspondente
 3. Adicionar `@skills/<nome>/SKILL.md` no `commands/<agente>.md`
 4. Adicionar linha na categoria correta em `skills/README.md`
@@ -62,6 +62,13 @@ Sistema de agentes de IA especializados para desenvolvimento de software. Este r
 ## Estrutura padrão de SKILL.md
 
 ```markdown
+---
+name: <nome-da-skill>                                  ← igual ao nome do diretório (a-z, 0-9, hífen)
+description: "<o que faz> Use quando <gatilho>."       ← 3ª pessoa, ≤1024 chars, sem < > (proibido tag XML)
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true                         ← skill só é acionada via command de agente, não automaticamente
+---
+
 # Skill: <nome>
 
 <descrição em uma linha>
@@ -88,6 +95,8 @@ Sistema de agentes de IA especializados para desenvolvimento de software. Este r
 
 - [ ] ...
 ```
+
+**Frontmatter obrigatório em toda skill:** bloco YAML no topo com `name` (= diretório), `description` (≤1024 chars, sem `<`/`>`), `author` e `disable-model-invocation: true`. Segue o padrão [Agent Skills](https://agentskills.io); a `description` é o único texto pré-carregado e governa a descoberta.
 
 **Seções obrigatórias em toda skill:** Quando usar · Processo · Racionalizações bloqueadas · Checklist de conclusão.
 
@@ -123,6 +132,8 @@ Demanda do usuário: $ARGUMENTS
 ## Invariantes do sistema
 
 - **Skills são protocolos, não código**: `SKILL.md` é lido pelo agente como instrução de comportamento
+- **Toda skill tem frontmatter**: bloco YAML com `name`/`description`/`author` no topo (padrão Agent Skills). Por padrão usam `disable-model-invocation: true`, que mantém o roteamento pelo orquestrador — skills não disparam fora do `command` do agente
+- **Skills auto-invocáveis são a exceção**: apenas 6 skills de gatilho reativo/transversal omitem `disable-model-invocation` para o Claude poder acioná-las sozinho — `entrevistar-usuario`, `refinar-ideia`, `gerenciar-contexto`, `simplificar-codigo`, `implementar-incremental`, `questionar-decisao`. Toda nova skill deve nascer com `disable-model-invocation: true`, salvo justificativa explícita de gatilho reativo
 - **Guardrails são idempotentes**: cada regra tem seção numerada para citação exata em bloqueios (`backend.md §2`)
 - **References são consultadas, não carregadas**: o agente busca o arquivo quando precisa, não carrega no contexto principal
 - **`dev-mensageria` não tem skills próprias** — usa skills de `arquiteto` e `dev-backend`

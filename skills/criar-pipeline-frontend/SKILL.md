@@ -1,3 +1,10 @@
+---
+name: criar-pipeline-frontend
+description: "Cria workflows de CI/CD de staging e produção para frontend React com Vite ou CRA. Use quando o dev-devops ou o dev-frontend vai configurar a esteira de um frontend."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-pipeline-frontend
 
 Cria os **dois workflows GitHub Actions** para um frontend React: `ci-cd-staging.yml` (build com variáveis de staging, deploy automático em branches de desenvolvimento) e `ci-cd-production.yml` (build com variáveis de produção, deploy em `main` com aprovação manual). Target padrão: **AWS ECS Fargate + ECR** (frontend entregue como imagem Docker Nginx).

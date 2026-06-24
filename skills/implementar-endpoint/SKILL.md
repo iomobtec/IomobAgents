@@ -1,3 +1,10 @@
+---
+name: implementar-endpoint
+description: "Implementa endpoints REST em NestJS com validação e tratamento de erros. Use quando o dev-backend ou o dev-bff vai adicionar uma rota a um serviço existente."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: implementar-endpoint
 
 Adiciona um **novo endpoint** a um serviço NestJS existente: DTO de request/response, método no controller, lógica no service, registro no module e testes unitários — seguindo os contratos definidos pelo arquiteto.

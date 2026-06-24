@@ -1,3 +1,10 @@
+---
+name: definir-evento
+description: "Define o schema de um evento, a topologia de mensageria e as relações produtor-consumidor. Use quando o arquiteto vai introduzir comunicação assíncrona via eventos."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: definir-evento
 
 Define o **schema, tópico, produtor, consumidor(es) e garantias** de um evento de domínio em arquitetura orientada a eventos. Produz a especificação que governa a produção e o consumo do evento — não escreve o código de publicação ou consumo.

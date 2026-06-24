@@ -1,3 +1,10 @@
+---
+name: criar-pipeline-servico
+description: "Cria workflows de CI/CD de staging e produção para serviços Node.js. Use quando o dev-devops ou um dev de backend vai configurar a esteira de um serviço."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-pipeline-servico
 
 Cria os **dois workflows GitHub Actions** para um serviço Node.js (backend, BFF ou worker de mensageria): `ci-cd-staging.yml` (deploy automático em branches de desenvolvimento) e `ci-cd-production.yml` (deploy em `main` com aprovação manual). Target padrão: **AWS ECS Fargate + ECR**.

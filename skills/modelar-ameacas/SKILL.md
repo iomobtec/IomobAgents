@@ -1,9 +1,23 @@
+---
+name: modelar-ameacas
+description: "Analisa componentes com a metodologia STRIDE e produz um threat model com os controles obrigatórios por camada. Use quando o dev-security ou o arquiteto vai modelar ameaças antes do desenvolvimento."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: modelar-ameacas
 
+Modela ameaças de segurança de um microsserviço com a metodologia STRIDE e define os controles obrigatórios por camada antes do desenvolvimento.
+
 **Agente:** `dev-security`, `arquiteto`  
-**Quando usar:** Após o arquiteto definir os componentes de um microsserviço (endpoints, eventos, dados, integrações). Executar antes do início do desenvolvimento para identificar controles obrigatórios por camada.  
 **Output:** `plans/dev-security/<ticket>-threat-model.md`  
 **Referências rápidas:** `References/security-checklist.md`
+
+---
+
+## Quando usar
+
+Após o arquiteto definir os componentes de um microsserviço (endpoints, eventos, dados, integrações). Executar antes do início do desenvolvimento para identificar controles obrigatórios por camada.
 
 ---
 

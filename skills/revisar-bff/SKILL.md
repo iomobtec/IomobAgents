@@ -1,3 +1,10 @@
+---
+name: revisar-bff
+description: "Revisa código BFF quanto a padrões de integração e tratamento de erros upstream. Use quando o dev-bff vai autorrevisar o código antes do PR."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-bff
 
 Revisa **código de serviço BFF (Backend for Frontend)** antes de abertura de PR: verifica aderência aos guardrails, ausência de lógica de negócio indevida, qualidade das transformações de response, segurança dos dados expostos ao frontend e cobertura de testes.

@@ -1,3 +1,10 @@
+---
+name: gerar-teste-componente
+description: "Escreve testes de componente com React Testing Library. Use quando o dev-frontend precisa cobrir um componente com testes."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: gerar-teste-componente
 
 Escreve **testes de componentes e hooks React** com React Testing Library (RTL): testa comportamento visível ao usuário, estados de UI (loading, erro, vazio, sucesso) e interações, sem testar implementação interna.

@@ -1,3 +1,10 @@
+---
+name: especificar-componente
+description: "Produz a especificação visual detalhada de um componente — estados, acessibilidade, responsividade e tokens — como entrada para o frontend. Use quando o dev-ui-ux vai detalhar um componente antes da implementação."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: especificar-componente
 
 Produz a especificação completa de um componente React antes de qualquer linha de código ser escrita: estados visuais, dados esperados, requisitos de acessibilidade, responsividade e tokens do design system. O arquivo gerado é a instrução principal que o `dev-frontend` segue para implementar.

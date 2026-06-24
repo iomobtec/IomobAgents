@@ -1,8 +1,22 @@
+---
+name: revisar-dependencias-cve
+description: "Verifica CVEs em package.json, lockfile e Dockerfiles e inspeciona scripts postinstall de novas dependências. Use quando o dev-security ou o dev-devops vai avaliar o risco de dependências."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: revisar-dependencias-cve
 
+Verificação de CVEs e de scripts postinstall em dependências e imagens Docker alteradas em um PR.
+
 **Agente:** `dev-security`, `dev-devops`  
-**Quando usar:** Sempre que `package.json`, `package-lock.json` ou `Dockerfile` forem alterados em um PR. Executar como parte da auditoria pré-merge junto com `auditar-seguranca`.  
 **Output:** Seção "Dependências" do relatório de segurança, com lista de CVEs e ação recomendada.
+
+---
+
+## Quando usar
+
+Sempre que `package.json`, `package-lock.json` ou `Dockerfile` forem alterados em um PR. Executar como parte da auditoria pré-merge junto com `auditar-seguranca`.
 
 ---
 

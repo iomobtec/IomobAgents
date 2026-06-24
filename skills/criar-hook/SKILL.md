@@ -1,3 +1,10 @@
+---
+name: criar-hook
+description: "Extrai lógica React em custom hooks para reúso. Use quando o dev-frontend precisa isolar lógica de estado ou efeito reaproveitável."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-hook
 
 Extrai lógica de estado, efeitos colaterais ou comunicação com BFF para um **hook customizado React**: encapsula complexidade, promove reutilização e mantém componentes focados exclusivamente em renderização.

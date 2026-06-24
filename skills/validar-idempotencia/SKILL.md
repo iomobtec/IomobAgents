@@ -1,3 +1,10 @@
+---
+name: validar-idempotencia
+description: "Verifica se uma operação é segura para múltiplas execuções sem corromper estado. Use quando o arquiteto ou o dev-backend precisa garantir idempotência em endpoints ou consumers."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: validar-idempotencia
 
 Verifica se uma operação (endpoint, handler de evento, job) é **segura para ser executada múltiplas vezes com o mesmo input sem produzir efeitos colaterais adicionais**. Produz diagnóstico e, quando necessário, especificação de como tornar a operação idempotente.

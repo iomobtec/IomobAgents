@@ -1,3 +1,10 @@
+---
+name: criar-teste-unitario
+description: "Escreve testes unitários Jest com mocking e isolamento de componentes. Use quando o dev-backend precisa cobrir lógica isolada com testes."
+author: "Pedro Andriow (https://github.com/Andriow)"
+disable-model-invocation: true
+---
+
 # Skill: criar-teste-unitario
 
 Escreve **testes unitários Jest** para services, utils e regras de negócio em Node.js/NestJS: mocka dependências externas na fronteira, cobre casos de sucesso e de erro, e segue as convenções de nomenclatura do projeto.
